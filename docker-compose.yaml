@@ -5,7 +5,7 @@ services:
      container_name: gitlab
      environment:
        GITLAB_OMNIBUS_CONFIG: |
-         external_url "http://ciserver.ml/gitlab" # replace with a valid external url
+         external_url "http://REPLACEME.com/gitlab" # replace with a valid external url. Keep /gitlab !!!
      restart: always
      networks:
        - webnet

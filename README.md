@@ -48,7 +48,7 @@ or change path to crt and key in `.env`.
 Nginx exposes 80 and 443 (automatic redirect to 443 is configured). Jenkins, GitLab and Selenium Hub ports aren't published, and communication is performed only through Nginx with SSL
 which talks to servers using service names (all of them are in one network i.e. unaccessible from outside).
 
-Selenium node talks to Hub using `selenium-hub:4444` edpoint.
+Selenium node talks to Hub using `selenium-hub:4444` eddpoint.
 
 ## How to Start
 
